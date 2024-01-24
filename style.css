@@ -1,0 +1,199 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #000000;
+  font-family: Nunito;
+}
+
+
+
+.intro {
+  padding: 50px 100px 50px 100px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 90;
+}
+
+.normal_link {
+  align-content: center;
+  font-size: 1.75rem;
+  font-weight: 100;
+  color: #aecae0;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+  transition: 500ms;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #29719e;
+  font-weight: 400;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+#mainNavbar .navbar-brand {
+  color: #97694F;
+  font-size: 1.5rem;
+}
+
+#headingGroup span {
+  color: #97694F;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.navbar.scrolled {
+  background: #aecae0;
+  transition: background 500ms;
+}
+
+#header-image-menu {
+  top: 80px;
+  position: relative;
+}
+
+#header-image-menu img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-left: 100;
+  margin: none;
+  padding: none;
+  padding-top: 50;
+}
+
+.header {
+  margin-top: 100px;
+  padding: 60px;
+  text-align: center;
+  background: #83b4d2;
+  color: white;
+  font-size: 30px;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 15px;
+  max-width: 100px;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 2.5rem;
+  }
+}
+
+.blurb h2 {
+  color: #83b4d2;
+  font-weight: 300;
+  font-size: 2.25rem;
+}
+
+.blurb p {
+  color: #aecae0;
+  font-weight: 150;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section4 {
+  padding: 10% 30% 10% 30%;
+}
+
+.section4 h2 {
+  color: #97694F;
+  font-size: 2.25rem;
+}
+
+.section4-text ul {
+  color: #b18870;
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.section4-text ul li p:first-of-type {
+  font-weight: normal;
+  font-size: 16pt;
+}
+
+
+
+/* resources */
+a:link {
+  color: #669c35; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #669c35;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4f7a28;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #77bb41;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+
+/* about us page styling */
+.column {
+  float: left;
+  width: 24%;
+  margin-bottom: 16px;
+  padding: 0 7px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
